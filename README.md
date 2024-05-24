@@ -22,7 +22,7 @@ Template Document: Place your Word document template in the public/contract_temp
 Initialization: Initialize the service with a contract object, employee name, employee object, and an array of active equipment associated with the contract.
 
 
-###FUnctionality
+### FUnctionality
 - Logging Equipment Details: If equipment details are available, they are logged to the console.
 - Document Generation: The service opens the DOCX template, replaces placeholders with actual data, and then saves the generated document.
 - Handling Multiple Equipment: The service can handle multiple pieces of equipment, adding each to the contract document in a designated table.
@@ -30,7 +30,7 @@ Initialization: Initialize the service with a contract object, employee name, em
 - Saving and Attachment: The generated document is temporarily saved, attached to the contract object, and then the temporary file is deleted.
 
 
-###Docuentation 
+### Docuentation 
 - fill_table_with_equipment: Fills a table in the document with equipment details.
 - fill_equipment_row: Fills a single row of the equipment table with data.
 - substitute_equipment_text: Substitutes placeholders in the equipment data table.
@@ -39,5 +39,5 @@ Initialization: Initialize the service with a contract object, employee name, em
 
 
 
-###License
+#### License
 This markdown content is ready for integration into your project's documentation. Adjustments can be made as needed to better fit your project's context or guidelines.
